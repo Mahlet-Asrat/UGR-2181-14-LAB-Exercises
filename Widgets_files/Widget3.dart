@@ -1,4 +1,6 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class Widget_3 extends StatelessWidget {
   const Widget_3({super.key});
@@ -56,7 +58,57 @@ class Widget_3 extends StatelessWidget {
               Text("8.6 dollar", style: TextStyle(fontSize: 25.0),),
               Icon(Icons.heart_broken, size: 48.0, color: Colors.grey,)
             ],
-          )
+          ),
+          Text("BARDI| Smart Ligth Bulb Lamp Bolham LED WIFI RGBWW 12W We hop eyou like out producrt", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),), SizedBox(height: 15.0,),
+          Row(
+            children: <Widget> [
+              Icon(Icons.star, color: Colors.yellow,),
+              Text("5.0 (354)          | 540 Sale                 | Brooklyn", style: TextStyle( fontSize: 18.0),),
+              SizedBox(height: 15.0,),
+            ],
+          ), SizedBox(height: 20.0,),
+          Column(
+          children: [  Text("Variant                                                                                  ", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),),
+                    Text("Size: XS                                                                                                             ", style: TextStyle(fontSize: 17.0),), 
+                    Row( 
+            children: [
+              Container(
+                padding: EdgeInsets.all(12.0),
+                decoration: BoxDecoration(
+                  color: Colors.blue,
+                  borderRadius: BorderRadius.circular(10.0)
+                ),
+                child: Text("XS", style: TextStyle(fontSize: 25.0),),
+              ), SizedBox(width: 12.0,),
+              Container(
+                padding: EdgeInsets.all(12.0),
+                decoration: BoxDecoration(
+                  border: Border.all(color: Colors.grey),
+                  borderRadius: BorderRadius.circular(10.0)
+                ),
+                child: Text("XS", style: TextStyle(fontSize: 25.0),),
+              ), SizedBox(width: 12.0,),
+              Container(
+                padding: EdgeInsets.all(12.0),
+                decoration: BoxDecoration(
+                  border: Border.all(color: Colors.grey),
+                  borderRadius: BorderRadius.circular(10.0)
+                ),
+                child: Text("XS", style: TextStyle(fontSize: 25.0),),
+              ), SizedBox(width: 12.0,),
+              Container(
+                padding: EdgeInsets.all(12.0),
+                decoration: BoxDecoration(
+                  border: Border.all(color: Colors.grey),
+                  borderRadius: BorderRadius.circular(10.0)
+                ),
+                child: Text("XS", style: TextStyle(fontSize: 25.0),),
+              ),
+            ],
+          )]
+          ),
+      
+
         ],
       ),
     );
